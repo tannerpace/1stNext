@@ -7,6 +7,11 @@
  **/
 const nextConfig = {
   /* config options here */
+  env: {
+    description: 'app-description-its-a-blog',
+  },
 }
 
-module.exports = nextConfig
+module.exports = {
+  ...nextConfig,
+}
